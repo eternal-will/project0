@@ -2,19 +2,23 @@
 <html lang="en">
     <head>
         <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
-        <title>Google</title>
         <link rel="stylesheet" href="static/style.css">
+        <title>Google Images</title>
     </head>
     <body>
         <form action="https://www.google.com/search" method="get">
+            <input type="hidden" name="tbm" value="isch">
             <div class="elementholder" id="top">
-                    <a class="elm" href="image.html">Images</a>
+                    <a class="elm" href="index.html">Google Search</a>
                     <a class="elm" href="G-AS.html">Advanced Search</a>
             </div>
-            <div class="img">
-                <img src="static/googlelogo_color.png">
+            <div class="img" style="align-items:center;">
+                <div id="img">
+                    <img src="static/googlelogo_color.png">
+                    <span>images</span>
+                </div>
             </div>
-            <div><div id="main">
+            <div id="main">
                 <div id="search-box">
                     <div id="pqbd">
                         <div id="si">
@@ -31,12 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="search-button">
-                    <center>
-                        <input value="Google Search" type="submit" aria-label="Google Search" id="s-b">
-                    </center>
-                </div>
-            </div></div>
+            </div>
             <div id="bottom">
                 <div id="country">India</div>
                 <div class="elememtholder" id="addlinks">
@@ -61,7 +60,7 @@
                         <a href="https://policies.google.com/terms?hl=en-GB&fg=1">
                             Terms
                         </a>
-                        <a href="index-dark.html">Dark Mode</a>
+                        <a href="image-dark.html">Dark Mode</a>
                     </div>
                 </div>
             </div>
