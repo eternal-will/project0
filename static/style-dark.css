@@ -14,6 +14,7 @@ body {
     background: #202124;
     font-size: 14px;
     font-family: arial,sans-serif;
+    margin: 0;
 }
 a {
   text-decoration: none;
@@ -24,7 +25,6 @@ a:hover {
 .elementholder {
   padding: 6px;
   margin-top: 15px;
-  width: 100%;
 }
 #top {
   text-align: right;
@@ -213,4 +213,48 @@ svg {
 #bright {
   display: flex;
   flex-wrap: wrap;
+}
+#adv-search {
+  margin: 40px 2% 0 45px;
+}
+.border {
+  border-bottom: 1px solid #4e5050;
+}
+#adv-search > div > table > thead > tr > th {
+  font-size: large;
+  font-weight: normal;
+  color: #e8eaed;
+}
+#adv-search > div > table {
+  border-spacing: 10px;
+}
+#adv-search > div > table > tbody > tr > td > input {
+  margin-left: auto;
+  margin-right: auto;
+  color: #bdc1c6;
+  background: #202124;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  border: 1px solid #5f6368;
+}
+#adv-search > div > table > tbody > tr > td > a {
+  color: #8ab4f8;
+}
+#some-more-links {
+  line-height: 18px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#some-more-links > span {
+  font-size: medium;
+}
+#some-more-links > a {
+  color: #8ab4f8;
+}
+#bottom-adv {
+  background: #171717;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  color: #9aa0a6;
 }
